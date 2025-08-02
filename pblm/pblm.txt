@@ -1,0 +1,19 @@
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Bivariate Additive Regression for Categorical Responses Use pblm With (In) R Software
+# Bivariate marginal logistic regression model of class pblm Use pblm With (In) R Software
+install.packages("pblm")
+library("pblm")
+pblm = read.csv("https://raw.githubusercontent.com/timbulwidodostp/pblm/main/pblm/pblm.csv",sep = ";")
+# Estimation 
+# Bivariate Additive Regression for Categorical Responses Use pblm With (In) R Software
+# Bivariate marginal logistic regression model of class pblm Use pblm With (In) R Software
+pblm <- pblm(fo1 = cbind(Y1, Y2) ~ fat1 + pb(x1), data = pblm, weights = Freq)
+summary(pblm)
+# Bivariate Additive Regression for Categorical Responses Use pblm With (In) R Software
+# Bivariate marginal logistic regression model of class pblm Use pblm With (In) R Software
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Finished
